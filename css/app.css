@@ -32,6 +32,10 @@
     background-color: #32064a;
 }
 
+.height-143 {
+    height: 143px;
+}
+
 .background-image-primeira-section {
     background-image: url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/89931755f22655c68b493f13/pexelsphoto1145720.jpeg);
     background-position: center;
@@ -508,6 +512,48 @@
     color: white !important;
 }
 
+.background-color-cinza {
+    color: #ffffff;
+    background-color: #333333;
+}
+
+.margin-left-380 {
+    margin-left: 380px;
+    margin-top: 60px;
+    display: flex;
+}
+
+.tag-p-footer {
+    width: 417px;
+    margin: 49px auto;
+    font-size: 0.875rem;
+}
+
+.tag-a-footer {
+    text-decoration: underline;
+    color: #a3e1f1;
+    display: inline-block;
+    transition: all .5s;
+    margin-right: 5px;
+}
+
+.tag-a-footer:hover {
+    color: gray;
+    text-decoration: none !important;
+}
+
+.tag-a-footer span {
+    font-size: 0.8rem;
+}
+
+.tag-p-footer-2 span {
+    font-size: 0.8rem;
+}
+
+.tag-p-footer-2 {
+    margin-right: 5px;
+}
+
 
 
 /* Responsivo */
@@ -826,6 +872,10 @@
         background-color: #32064a;
     }
 
+    .display-none {
+        display: none;
+    }
+
 }
   
 @media (min-width: 321px) and (max-width: 375px) {
@@ -1131,6 +1181,20 @@
         background-color: #32064a;
     }
 
+    .margin-left-380 {
+        margin-left: 8px;
+        margin-top: 60px;
+        display: flex;
+    }
+
+    .tag-a-footer span {
+        font-size: 0.7rem;
+    }
+
+    .tag-p-footer-2 span {
+        font-size: 0.7rem;
+    }
+
 }
   
 @media (min-width:  376px) and (max-width: 576px) {   
@@ -1393,6 +1457,12 @@
         background-color: #32064a;
     }
 
+    .margin-left-380 {
+        margin-left: 10px;
+        margin-top: 60px;
+        display: flex;
+    }
+
 }
   
 @media (min-width: 577px) and (max-width: 768px) {
@@ -1619,6 +1689,12 @@
         background-color: #32064a;
     }
 
+    .margin-left-380 {
+        margin-left: 170px;
+        margin-top: 60px;
+        display: flex;
+    }
+
 }
   
 @media (min-width: 769px) and (max-width: 992px) {
@@ -1764,6 +1840,12 @@
     .widht-504px {
         width: 455px;
         margin: 60px auto;
+    }
+
+    .margin-left-380 {
+        margin-left: 300px;
+        margin-top: 60px;
+        display: flex;
     }
 
 }

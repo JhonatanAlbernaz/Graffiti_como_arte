@@ -93,4 +93,4 @@ function verificacaoEmail(valor_input_email) {
     }else {
         return false;
     }
-}
+} 
